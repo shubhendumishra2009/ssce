@@ -101,7 +101,7 @@ function loadProduct(productName) {
             description: "Comprehensive business audit services for RMC plants to improve efficiency and profitability."
         },
         "trading": {
-            title: "Trading & Manufacturing",
+            title: "Manufacturing",
             image: "images/trading.jpg",
             description: "We provide a wide range of trading and manufacturing solutions for the construction industry."
         },
