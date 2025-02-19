@@ -100,15 +100,16 @@ function loadProduct(productName) {
             image: "images/audit.jpg",
             description: "Comprehensive business audit services for RMC plants to improve efficiency and profitability."
         },
-        "trading": {
-            title: "Manufacturing",
-            image: "images/trading.jpg",
-            description: "We provide a wide range of trading and manufacturing solutions for the construction industry."
-        },
+       
         "operation": {
             title: "Operation & Maintenance",
             image: "images/operation.jpg",
             description: "Ensuring smooth operation and maintenance of industrial and construction plants."
+        },
+        "trading": {
+            title: "Manufacturing",
+            image: "images/trading.jpg",
+            description: "We provide a wide range of trading and manufacturing solutions for the construction industry."
         }
     };
 
