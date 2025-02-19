@@ -70,8 +70,55 @@ nav ul li a {
     position: relative;
     display: inline-block;
     transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+    
 }
 
+
+/* Dropdown menu styles */
+.dropdown {
+    position: relative; /* Make it the reference for absolute positioning */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6c8b64;
+    min-width: 300px;
+    max-height: 300px; /* Limits dropdown height */
+    overflow-y: auto; /* Enables vertical scroll */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; 
+    left: 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.dropdown-content li {
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-content li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.dropdown-content li a:hover {
+    background-color: #56724f;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Show dropdown on hover */
+.nav-links .dropdown:hover .dropdown-content {
+    display: block;
+}
 /* Hover animation effect for navigation links */
 nav ul li a:hover {
     transform: scale(1.2); /* Zoom in on hover */

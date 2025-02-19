@@ -6,13 +6,10 @@
     <title>SSCE</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <script src="js/script.js"></script>
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header>
-        <!-- <div class="logo-container">
-            <img src="images/ssce.png" alt="Company Logo" class="logo">
-        </div> -->
         <h1>Welcome to INFRAASPHERE</h1>
         <button class="menu-toggle">☰</button> <!-- Hamburger Button -->
     </header>
@@ -21,7 +18,19 @@
         <ul>
             <li><a href="javascript:void(0)" onclick="loadPage('home')">Home</a></li>
             <li><a href="javascript:void(0)" onclick="loadPage('about')">About Us</a></li>
-            <li><a href="javascript:void(0)" onclick="loadPage('products')">Products & Services</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Products & Services</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">EPC for RMC and Aggregate plants</a></li>
+                    <li><a href="#">Maintenance, Operation, Quality Assurance Consultancy</a></li>
+                    <li><a href="#">Project and Financial Analysis of RMC and Aggregate Plant</a></li>
+                    <li><a href="#">Training and Compliance Services for RMC and Aggregate Plants</a></li>
+                    <li><a href="#">RMC Plant Business, Operation, Equipment Audit</a></li>
+                    <li><a href="#">Trading and Manufacturing of Construction Equipment</a></li>
+                    <li><a href="#">Operation and Maintenance of RMC Plants</a></li>
+                   
+                </ul>
+            </li>
             <li><a href="javascript:void(0)" onclick="loadPage('contact')">Contact Us</a></li>
         </ul>
     </nav>
@@ -33,6 +42,5 @@
     <footer>
         <p>&copy; 2025 My Business. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
